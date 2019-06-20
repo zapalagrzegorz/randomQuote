@@ -1,0 +1,45 @@
+body {
+    background: #2196F3;
+    color: #FFF;
+}
+header {
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+main {
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+}
+.blockquote-footer {
+    color: #FFF;
+    text-align: right;
+}
+.btn1 {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    background: #2196F3;
+    color: #FFF;
+    border: 1px outset white;
+    border-radius: 5px;
+}
+.btn1:nth-child(1) {
+    margin-top: 100px;
+}
+.btn1:nth-child(2) {
+  margin: 40px auto;
+}
+.btn1:active:focus {
+    border-style: inset;
+    outline: 0px auto -webkit-focus-ring-color
+}
+.btn1:focus {
+    outline: 0px auto -webkit-focus-ring-color
+}
+a:visited {
+    color: #FFF;
+}
+.fa-twitter {
+    margin-right: 5px;
+}
